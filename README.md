@@ -11,7 +11,7 @@ which is optimized to achieve 60 FPS when scrolling the page and less than 5 ms 
 ### Optimizations
 ## in index.html
 1. inline style.css and print.css
-2. add "async" to <script> tags
+2. add "async" to script tags
 3. comment out google font
 4. resize images to reduce bytes
 
