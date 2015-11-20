@@ -9,13 +9,13 @@ In the portfolio page, you can find the link to the [pizza page](http://dbhkhk.g
 which is optimized to achieve 60 FPS when scrolling the page and less than 5 ms when resizing pizzas on the page.
 
 ### Optimizations
-## in index.html
+#### in index.html
 1. inline style.css and print.css
 2. add "async" to script tags
 3. comment out google font
 4. resize images to reduce bytes
 
-## in views/js/main.js
+#### in views/js/main.js
 1. move code involving layout out of for loops to avoid forced synchronous layouts (FSL)
 2. add randomPizzaContainers to avoid repeating work
 3. redesign the algorithm for changing pizza sizes to avoid FSL and save unnessesary work
