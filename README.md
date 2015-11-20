@@ -19,3 +19,8 @@ which is optimized to achieve 60 FPS when scrolling the page and less than 5 ms 
 1. move code involving layout out of for loops to avoid forced synchronous layouts (FSL)
 2. add randomPizzaContainers to avoid repeating work
 3. redesign the algorithm for changing pizza sizes to avoid FSL and save unnessesary work
+4. add "use strict"
+5. replace querySelectorAll by getElementsByClassName
+6. replace querySelector by getElementById
+7. save *.length in for loop conditions in var len
+8. move declaration of pizzasDiv, elem, and movingPizzas1 outside the loop
